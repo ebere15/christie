@@ -1,0 +1,332 @@
+/* @media (max-width: 968px){
+    .container {
+        width: 70%;
+        margin: 0 1 ;
+    }   
+    
+    .category__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog_container{
+        grid-template-columns: repeat(2, 1fr);
+        height: 500px;
+    
+    }
+    .home_blog{
+      margin-top: 90px;
+    }
+    .benefits{
+        grid-template-columns: repeat(2, 2fr);
+        margin-top: 100px;
+    }
+   
+}
+@media (max-width: 768px){
+    .category__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog_container{
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .benefits{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        margin-left: 50px;
+        padding-left: 90px;
+        margin-bottom: -20px;
+    }
+    .benefits img{
+        margin-left: 40px;
+    }
+    .home_blog{
+        height: 100%;
+    }
+    .footer-subscribe {
+        display: flex;
+        display: block;
+        height: 300px;
+        
+        flex-direction: column;
+        position: relative;
+    }
+    .footer-subscribe h2{
+        
+        font-size: 35px;
+        padding-left: -40px;
+        margin-left: -85px;
+    }
+    .footer-subscribe p{
+        font-size: 18px;
+        margin-left: -80px;
+        
+       
+    }
+    .news{
+        position: absolute;
+        margin-left: 80px;
+    }
+    .subscribe-form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        margin-left: -10px;
+    }
+    .subscribe-form input{
+        width: 96%;
+    }
+    .subscribe-form button{
+        width: 100%;
+    }
+    .footer-social{
+        margin-left: -250px;
+        position: relative;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+} */
+
+
+@media only screen and (max-width: 1100px){
+    
+    
+    .navbar .nav-links{
+        display: none;
+    }
+    .discount{
+        background-color: rgba(0, 0, 0, 0.575);
+        padding: 7px;
+        color: #0f0f0fd2;
+    }
+    .discount p{
+        display: none;
+    }
+
+    .footer-subscribe {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .collection {
+        flex-direction: column;
+    }
+    .category__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .news-items{
+        grid-template-columns: repeat(2, 1fr);
+        
+    
+    }
+    .benefits{
+        grid-template-columns: repeat(2, 2fr);
+        
+    }
+    .ben_1{
+        border-right: none;
+    }
+    .ben_2{
+        
+        border-right: none;
+    }
+    .ben_3{
+        
+        border-right: none;
+    }
+    .testimonies{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+        
+    }
+    .inner{
+        width: 100%;
+        margin: 0px;
+        padding: 30px 0;
+
+    }
+    .speech{
+        position: relative;
+    }
+    .arrow{
+        position: absolute;
+        top: -10%;
+        font-size: 1.5rem;
+    }
+    .slider > .Testimonial_texts > p{
+        font-size: 1rem;
+    }
+    .author{
+        width: 100% ;
+        margin: 15px 0;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 1rem;
+        position: relative;
+    }
+    .author .span{
+        display: block;
+        position: relative;
+        top: -7%;
+        row-gap: 1rem;
+    }
+    .author .span p{
+        white-space: nowrap;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 825px){
+    .header{
+        padding: 0 30px;
+    }
+    .footer-links {
+        flex-direction: column;
+    }
+    .category__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .news-items{
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+
+.top-bar-left{
+    display: none;
+}
+
+}
+@media only screen and (max-width: 700px){
+    .trending__navbar {
+        display: flex;
+        border: 2px solid black;
+        flex-direction: column;
+        
+    }
+    .trending__navlist ul{
+        margin-top: -10px;
+        border: 2px solid black;
+    }
+   
+}
+@media only screen and (max-width: 560px){
+    
+   .top-bar{
+    width: 100%;
+    display: none;
+   }
+   .text-container1 h1{
+    font-size: 30px;
+   }
+   .text-container2{
+    margin-left: 150px;
+   }
+   .text-container2 h1{
+    font-size: 30px;
+   }
+   .discount{
+    width: 100%;
+   }
+    .benefits{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 100px;
+        
+        
+    }
+    .subscribe-form {
+        display: flex;
+        flex-direction: column;
+        width:100% ;
+        margin-top: 10px;
+        border:  2px solid red;
+    
+    }
+    
+    .footer-subscribe h2{
+        
+        font-size: 30px;
+        
+
+    }
+    .footer-subscribe p{
+        font-size: 18px;
+       
+        margin-bottom: -20px; 
+        
+    }   
+    .footer-subscribe{
+        justify-content: flex-start;
+        border:  2px solid red;
+    }
+    .news{
+        border:  2px solid red;
+        text-align: left;
+
+    }
+    .subscribe-form input{
+        width: 100%;
+        border:  2px solid red;
+        padding-right: 70px;
+        
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }  
+    
+    .menu-ham-sec
+    {
+        display: flex;
+        background-color: #111111ef;
+        padding: 2%;
+        justify-content: end;
+        width: 100%;
+        
+    }
+    .discount
+    {
+        width: 100%;
+        display: none;
+    }
+    .contain{
+         background-color: black;
+        border-radius: 15px;
+        width: fit-content;
+        padding: 0% 2%;
+    }
+    .contain p{
+        color: white;
+        display: block;
+        margin-right: 1ch;
+    }
+    
+    .hamburger{
+        padding-top: 13px;
+        cursor: pointer;
+    }
+    .hamburger div{
+        width: 30px;
+        height: 3px;
+        margin: 5px 0;
+        background-color: white;
+    }
+    .top-bar-right{
+        display: none;
+    }
+    .latest-news{
+        
+        margin: auto;
+    }
+    .arrow{
+        display: none;
+    }
+    .author{
+        margin-left: -90px;
+        line-height: 1.5;
+    }
+}
